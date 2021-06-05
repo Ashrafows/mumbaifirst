@@ -82,6 +82,39 @@ can have mulpite dirs in a single drectores
 file can be coped or replaced but one file canot move into unother file 
 
 
+----------------------------------------------------------------
+=============================================================
+---------------------------------------------------------------
+
+get started with commnds
+
+
+yum update -y
+yum insatll git -y
+git --version to know the git version
+
+
+git config --global user.name ""
+git config --global user.email""
+
+which git output /bin
+
+git config --list
+
+create a directory in mumabai
+execute git init o/p .git file will be created which had 3 logical spaces working  space , staging , loal repo or commit
+
+git add .to added code from wk to staging
+git commit -m "" to commit to local repo'
+
+git remote add origin url cpo0y
+ 
+git push / pull origin master
+ provide user name and password
+
+git status to check the state
+git show = to show the contain 
+git log to check details of the user name commit id
 
 
 
