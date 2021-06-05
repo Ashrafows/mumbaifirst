@@ -1,0 +1,87 @@
+login to instace server with putty
+ec2-user
+sudo su
+cat touch vi nano to make files
+
+vi and nano are editable files 
+
+mkdir to make directories
+
+cd directory name to enter into directory
+
+cd .. to come out from directroy
+ cd ../.. single commad to come out from multipule directories
+
+pwd to check the exact path where u r
+
+ctrl+d to save file in cat 
+cat >> to add to existing file
+ls to check the list what present in the directory
+ls -a to check hidden fils
+history to check the used commands
+ifconfig to check the machine details ip net etc
+who iam to no the presnt work status as auser or root
+more less head to check pages
+hostname -i to check the ip
+yum install <> -y to install the packges
+yum update -y to update the intance or server machine
+service <> start
+service <service name eg http> status or stop
+chk config http on
+chk config http off to stop the getting automatically on when instance is on
+echo
+sort arrange file in alphabtic order
+yum insatll list
+
+
+---------------------------------------
+----------------------------------------
+
+adduser to add a user account
+groupadd to create  a group 
+groupadd -p to add multple user
+gpasswrd -a  to add user
+gpasswd -M to add multipe users
+tar to combine multiple files into one
+gzip to compreass the file
+tar -cvf dirname.tar dirnmae
+tar -xvf dirnmae.tar  to untar the file
+gunzip gunzip dir.tar.gz to restore the files uncompresed
+tree to check files and directoer in tree manner
+
+
+----------------------------------
+
+how to check add user 
+cat etc/passwd
+to check groups 
+
+cat etc/groups
+# mv f1 f2 to move file data from f1 to f2 
+rm -rf  f2 to remove file or directoyr force fuly
+#cp f1 to f2
+---------------------------------------
+
+chmod to change the mode of acess rwx deafult mode for dire is 755 for file is 644
+
+rwx = 421
+
+rwx-r-x-r-x
+rw--r--r--
+
+ugo 
+
+to give witee permission g=+w
+or chmod 675 f1 or d1
+
+
+mv file1 di2
+
+can have mulpite dirs in a single drectores
+
+file can be coped or replaced but one file canot move into unother file 
+
+
+
+
+
